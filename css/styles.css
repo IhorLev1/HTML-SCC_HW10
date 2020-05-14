@@ -25,21 +25,21 @@ body {
       from(rgba(252, 227, 138, 0.9)),
       to(rgba(243, 129, 129, 0.9))
     ),
-    url(/images/background.jpg);
+    url(../images/background.jpg);
 
   background-image: -o-linear-gradient(
       bottom,
       rgba(252, 227, 138, 0.9) 0%,
       rgba(243, 129, 129, 0.9) 100%
     ),
-    url(/images/background.jpg);
+    url(../images/background.jpg);
 
   background-image: linear-gradient(
       to top,
       rgba(252, 227, 138, 0.9) 0%,
       rgba(243, 129, 129, 0.9) 100%
     ),
-    url(/images/background.jpg);
+    url(../images/background.jpg);
 }
 
 .site-logo {

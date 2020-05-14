@@ -1,10 +1,3 @@
-/*
-* Prefixed by https://autoprefixer.github.io
-* PostCSS: v7.0.29,
-* Autoprefixer: v9.7.6
-* Browsers: last 4 version
-*/
-
 * {
   font-family: "Montserrat", "Roboto", "Kaushan Script", sans-serif;
 }
@@ -30,21 +23,21 @@ body {
       left bottom,
       left top,
       from(rgba(252, 227, 138, 0.9)),
-      to(rgb(243, 129, 129, 0.9))
+      to(rgba(243, 129, 129, 0.9))
     ),
     url(/images/background.jpg);
 
   background-image: -o-linear-gradient(
       bottom,
       rgba(252, 227, 138, 0.9) 0%,
-      rgb(243, 129, 129, 0.9) 100%
+      rgba(243, 129, 129, 0.9) 100%
     ),
     url(/images/background.jpg);
 
   background-image: linear-gradient(
       to top,
       rgba(252, 227, 138, 0.9) 0%,
-      rgb(243, 129, 129, 0.9) 100%
+      rgba(243, 129, 129, 0.9) 100%
     ),
     url(/images/background.jpg);
 }
